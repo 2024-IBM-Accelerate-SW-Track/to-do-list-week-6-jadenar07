@@ -67,6 +67,7 @@ async function getItems (request, response) {
 };
 
 //** week 6, search items service */
+//
 app.get("/get/searchitem", searchItems) 
 async function searchItems (request, response) {
     //begin here
@@ -79,5 +80,4 @@ async function searchItems (request, response) {
 };
 
 
-// Add initDB function here
 
